@@ -20,10 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{7CDB6FF4-A8D6-4E40-AA05-3116EF96A955}</ProjectGuid>
-    <RootNamespace>CPrimerPlus</RootNamespace>
+    <ProjectGuid>{91D0B308-E9A7-4308-82B8-0E30759BD3C6}</ProjectGuid>
+    <RootNamespace>My13111</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>10.10.4</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,11 +123,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Sales.h" />
+    <ClInclude Include="Cd.h" />
+    <ClInclude Include="Classic.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Cd.cpp" />
+    <ClCompile Include="Classic.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Sales.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
